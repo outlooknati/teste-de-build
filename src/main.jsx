@@ -7,7 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <SpeedInsights></SpeedInsights>
+    <SpeedInsights>npm i @vercel/analytics</SpeedInsights>
     <Analytics/>
     <App />
   </StrictMode>,
